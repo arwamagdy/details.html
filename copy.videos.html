@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mum.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header-about">
+        <nav>
+            <a href=""><img src="amag/University logo with laurel wreath Logo.png"alt=""></a>
+            <div class="nav-link"id="navLink">
+
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="mum.html">Home</a></li>
+                    <li><a href="Copy.courses.html">ABOUT</a></li>
+                    <li><a href="Copy.myspan.html">My pans</a></li>
+                    <li><a href="copy.videos.html">Videos</a></li>
+                    <li><a href="Copy.countactus.html">the map</a></li>
+                    <li><a href="Copy.About.html">ABOUT us</a></li>
+
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+       
+        </nav>
+        <div class="text">
+            <h1>videos</h1>
+
+        </div>  
+    </section>
+
+   
+
+    <section class="projects" id="projects">
+        <h2 class="title">projects</h2>
+        <div class="content"> 
+            <div class="project-card">
+               <div class="project-imge">
+               <video controls poster="" width="200" height="auto">
+                <source src="amag/Download (6).mp4">
+    
+               </video>            
+               </div>
+               <div class="project-info">
+                <P class="project-category">Ancient Egyptian civilization</P>
+                <strong class="project-title">
+                    <span>Tutankhamun III</span>
+                    <a href="#" class="more-details">more details</a>
+                </strong>
+               </div>
+            </div>
+                        <div class="project-card">
+                           <div class="project-imge">
+                            <video controls poster="" width="200" height="auto">
+                                <source src="amag/Download (4).mp4">
+                    
+                               </video>     
+                            
+                           </div>
+                           <div class="project-info">
+                            <P class="project-category">Ancient Egyptian civilization </P>
+                            <strong class="project-title">
+                                <span>Tutankhamun</span>
+                                <a href="#" class="more-details">more details</a>
+                            </strong>
+                 </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+<section class="footer">
+    <h4>ABOUT us</h4>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+    <div class="social">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Made By  Mohamed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+</section>
+
+<script>
+    var navLink = document.getElementById("nav-Link");
+    function hidemenu(){
+        navLink.style.right ="-200px"
+    }
+    function showmenu(){
+        navLink.style.right ="0px"
+    }
+  </script>
+</body>
+</html>

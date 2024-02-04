@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mum.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header-about">
+        <nav>
+        
+            <div class="nav-link"id="navLink">
+
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="mum.html">Home</a></li>
+                    <li><a href="Copy.courses.html">ABOUT</a></li>
+                    <li><a href="Copy.myspan.html">My pans</a></li>
+                    <li><a href="copy.videos.html">Videos</a></li>
+                    <li><a href="Copy.countactus.html">the map</a></li>
+                    <li><a href="Copy.About.html">ABOUT us</a></li>
+
+
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+       
+        </nav>
+        <div class="text">
+            <h1>ABOUT us</h1>
+
+        </div> 
+    </section>
+
+    <section class="info">
+        <div class="row">
+            <div class="info-heading info-about">
+            <h1>You can learn about Egyptian civilization through the website</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsam reprehenderit aspernatur nihil delectus ut, ab, similique modi inventore cumque deleniti tempore? Laudantium reprehenderit fuga quisquam. Quae magnam commodi hic?</p>
+            <a href="" class="btn">MORE DETAILS</a>
+        </div>
+        <div class="info-heading">
+            <img src="amag/about.jpg" alt="">
+        </div>
+        </div>
+    </section>
+
+
+
+
+<section class="footer">
+    <h4>ABOUT us</h4>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+    <div class="social">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Made By Islam Mohamed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+</section>
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function hidemenu(){
+        navLink.style.right ="-200px"
+    }
+    function showmenu(){
+        navLink.style.right ="0px"
+    }
+  </script>
+</body>
+</html>
